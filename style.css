@@ -1,0 +1,49 @@
+body{
+    background-color: #eee;
+}
+.container{
+    border: 0px solid black;
+}
+.row{
+    border: 0px solid red;
+}
+.col, .col-8, .col-4, .col-12{
+    border: 0px solid green;
+}
+#header{
+    background-color: orange;
+    padding: 10px 0 10px 10px;
+}
+#menu{
+    background-color: pink;
+    padding: 3px 0;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+#content{
+    background-color: white;
+}
+#side-menu{
+    background-color:lightblue ;
+}
+#side-menu ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+#side-menu ul{
+    padding-top: 25px;
+}
+#footer{
+    background-color: pink;
+}
